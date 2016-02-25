@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CCTA</string>
+    <string name="badGuyImageViewDescription">A picture of our badguy</string>
+    <string name="badGuyName">Dr Evil</string>
+    <string name="badGuyGender">Male</string>
+    <string name="badGuyAge">+/- 50</string>
+    <string name="badGuyBounty">$100.000.000</string>
+    <string name="badGuyDescription">Dr. Evil is a fictional character, played by Mike Myers in the Austin Powers film
+        series. He is the antagonist of the movies, and Austin Powers\' nemesis. He is a parody of James Bond villains,
+        primarily Donald Pleasence\'s Ernst Stavro Blofeld (as featured in You Only Live Twice). Dr. Evil routinely
+        hatches schemes to terrorize and take over the world, and is typically accompanied by Number-two: an eye-patch
+        wearing goon who fronts his evil corporation Virtucon Industries, his cat Mr. Bigglesworth and his sidekick
+        Mini-Me, a dwarf clone of himself.
+    </string>
+</resources>

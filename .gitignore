@@ -12,6 +12,8 @@
 # Generated files
 bin/
 gen/
+/CCTA2/out
+/CCTA2/.idea
 
 # Gradle files
 .gradle/
