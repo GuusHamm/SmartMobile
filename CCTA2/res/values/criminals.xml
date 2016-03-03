@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>DR. Evil</item>
+        <item>Frau Farbissina</item>
+        <item>Scott Evil</item>
+        <item>Number 2</item>
+        <item>Mr. Bigglesworth</item>
+    </string-array>
+</resources>

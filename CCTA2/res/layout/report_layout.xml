@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:text="Take Picture"
                 android:id="@+id/button2" android:layout_gravity="top|left"
-                android:layout_margin="5dp" style="@style/HackerFont.Yellow.Bordered"/>
+                style="@style/HackerFont.Yellow.Bordered" android:layout_margin="5dp"/>
     </RelativeLayout>
     <ImageView android:layout_width="342dp"
                android:layout_height="@android:dimen/thumbnail_height" android:id="@+id/imageView2"
