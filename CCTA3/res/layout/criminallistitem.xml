@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- TODO: put the user interface for one single item of the criminal list view here -->
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" style="@style/BorderBlue">
+        <ImageView
+                android:layout_width="99dp"
+                android:layout_height="85dp"
+                android:id="@+id/mugShot" android:src="@drawable/mugshot1"/>
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_marginLeft="10dp">
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_gravity="center_horizontal">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Generic BadGuy"
+                        android:id="@+id/criminalName" android:layout_gravity="center_horizontal"
+                        style="@style/HackerFont.Blue" android:textSize="24sp"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_gravity="center_horizontal">
+                <TextView style="@style/HackerFont.Blue" android:layout_width="match_parent"
+                          android:layout_height="wrap_content" android:text="$ 10" android:id="@+id/criminalBounty"
+                          android:layout_gravity="center_horizontal" android:textSize="24dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

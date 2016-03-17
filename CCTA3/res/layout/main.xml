@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/linearLayout1"
+              style="@style/NYBackground">
+    <ImageView
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:id="@+id/imageView" android:layout_gravity="center_horizontal"
+            android:cropToPadding="false" android:src="@drawable/badguy" android:background="@drawable/badguybackgroundny"
+            android:contentDescription="@string/badGuyImageViewDescription" android:layout_marginTop="10dp"/>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tableLayout"
+            android:layout_gravity="center_horizontal"
+            style="@style/BorderBlue" android:layout_marginTop="10dp">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Name:"
+                    android:id="@+id/nameLabel" android:textStyle="bold"
+                    android:typeface="monospace" style="@style/HackerFont.Blue"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/badGuyName"
+                    android:id="@+id/nameValue"
+                    android:textStyle="bold" android:typeface="monospace"
+                    android:textSize="20dp" style="@style/HackerFont.Blue"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="Gender:   "
+                      android:id="@+id/textView3" android:textStyle="bold"
+                      android:typeface="monospace" style="@style/HackerFont.Blue"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/badGuyGender"
+                      android:id="@+id/genderValue"
+                      android:textStyle="bold" android:typeface="monospace"
+                      style="@style/HackerFont.Blue"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginRight="5dp" android:layout_marginLeft="5dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="Age:"
+                      android:id="@+id/textView5" android:textStyle="bold"
+                      android:typeface="monospace" style="@style/HackerFont.Blue"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/badGuyAge"
+                      android:id="@+id/ageValue"
+                      android:textStyle="bold" android:typeface="monospace"
+                      style="@style/HackerFont.Blue"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_gravity="center_horizontal" android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp" android:layout_marginBottom="5dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="Bounty:"
+                      android:id="@+id/textView" android:textStyle="bold"
+                      android:typeface="monospace" style="@style/HackerFont.Blue"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/badGuyBounty"
+                      android:id="@+id/bountyValue"
+                      android:textStyle="bold" android:typeface="monospace"
+                      style="@style/HackerFont.Blue"/>
+        </TableRow>
+    </TableLayout>
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/scrollView" android:layout_gravity="center_horizontal"
+            android:padding="5dp" style="@style/BorderBlue" android:layout_marginTop="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="@string/badGuyDescription"
+                android:id="@+id/description" android:typeface="monospace"
+                style="@style/HackerFont.Blue"/>
+    </ScrollView>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:id="@+id/reportButton" android:layout_gravity="center_horizontal"
+            android:textColor="@color/csi_ny_blue" android:textSize="24dp"
+            android:textStyle="bold"
+            style="@style/BorderBlue" android:allowUndo="false" android:layout_marginTop="10dp"/>
+</LinearLayout>
+
