@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generic BadGuy"
+                    android:id="@+id/crimeName"
+                    style="@style/HackerFont.Blue" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView style="@style/HackerFont.Blue" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:text="$ 10" android:id="@+id/crimeBounty"
+                      android:textSize="24dp" android:textStyle="normal"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView style="@style/HackerFont.Blue" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:text="$ 10" android:id="@+id/crimeDescription"
+                      android:textSize="24dp" android:textStyle="normal"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

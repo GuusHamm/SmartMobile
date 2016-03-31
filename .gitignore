@@ -12,6 +12,8 @@
 # Generated files
 bin/
 gen/
+/CCTA4/out
+/CCTA4/.idea
 /CCTA2/out
 /CCTA2/.idea
 
